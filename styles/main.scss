@@ -1,14 +1,42 @@
-$text-color: red;
+
+$red: #e50914;
+$black: #141414; 
+$silver: #AAA;
+$hover_link: #fff;
+
+$font: 'Arial Black';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: rgb(0, 0, 0);
-    color: $text-color;
+    background-color: $black;
+    color: $red;
+    font-family: $font;
 }
 
 .container{
-    // color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        margin-left: 5px;
+        color: $red;
+        font-size: 40px;
+    }
 
     a {
-        color: white;
+        color: $silver;
+        text-decoration: none;
+        margin-right: 10px;
+
+        &:hover{
+            color: $hover_link; 
+        }
     }
+
 }
