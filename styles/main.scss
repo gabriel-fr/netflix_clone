@@ -1,10 +1,12 @@
-
 $red: #e50914;
 $black: #141414; 
 $silver: #AAA;
 $hover_link: #fff;
 
 $font: 'Arial Black';
+
+@import 'filme_principal';
+
 
 *{
     margin: 0;
@@ -14,29 +16,40 @@ $font: 'Arial Black';
 
 body {
     background-color: $black;
-    color: $red;
+    color: white;
     font-family: $font;
-}
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .logo{
-        margin-left: 5px;
-        color: $red;
-        font-size: 40px;
-    }
-
-    a {
-        color: $silver;
+    a{
+        color: white;
         text-decoration: none;
-        margin-right: 10px;
 
         &:hover{
-            color: $hover_link; 
+            color: $hover_link;
         }
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: inherit;
+    
+        .logo{
+            margin-left: 5px;
+            color: $red;
+            font-size: 40px;
+        }
+    
+        a {
+            color: $silver;
+            text-decoration: none;
+            margin-right: 10px;
+    
+            &:hover{
+                color: $hover_link; 
+            }
+        }
+    
     }
 
 }
