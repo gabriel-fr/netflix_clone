@@ -29,6 +29,7 @@ body {
     }
 
     .container{
+        margin-left: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -52,4 +53,7 @@ body {
     
     }
 
+    .item{
+        width: 100vw;
+    }
 }
