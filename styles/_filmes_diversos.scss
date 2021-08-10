@@ -1,0 +1,38 @@
+.filmes-diversos{
+    margin-left: 15px;
+    img{
+        width: 200px;
+        height: 310px;
+        margin: 5px;
+    }
+
+    .owl-prev{
+        position: absolute;
+        font-size: 50px!important;
+        top: 0vh;
+        // background: linear-gradient(45deg, black, transparent)!important;
+        height: 315px;
+        width: 50px;
+        margin-left: 5px;
+
+        &:hover{
+            background: linear-gradient(90deg, rgba(92, 92, 92, 0.549), transparent)!important;
+        }
+    }
+
+    .owl-next{
+        position: absolute;
+        font-size: 50px!important;
+        top: 0vh;
+        // background: linear-gradient(45deg, black, transparent)!important;
+        height: 315px;
+        width: 50px;
+        right: 0;
+
+        &:hover{
+            background: linear-gradient(-90deg, rgba(92, 92, 92, 0.549), transparent)!important;
+        }
+    }
+    
+
+}
