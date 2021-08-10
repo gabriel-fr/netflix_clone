@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 900px){
+    .titulo{
+        height: 20vh!important;
+    }
+
+    .filmes-diversos img{
+        height: 250px!important;
+    }
+
+    .filmes-diversos button{
+        height: 255px!important;
+    }
+}
+
+@media screen and (max-width:550px){
+    .logo{
+        font-size: 25px!important;
+    }
+
+    nav{
+        font-size: 14px!important;
+    }
+
+    .filmes-diversos img{
+        height: 160px!important;
+    }
+
+    .filmes-diversos button{
+        height: 165px!important;
+    }
+}

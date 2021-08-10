@@ -1,8 +1,8 @@
 $('.owl-carousel.filmes-principais').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
-    dots: true,
+    nav:false,
+    dots: false,
     autoWidth:true,
     autoplay:true,
     autoplayTimeout:3000,

@@ -5,6 +5,7 @@ $hover_link: #fff;
 
 $font: 'Arial Black';
 
+@import 'responsivo';
 @import 'filme_principal';
 @import 'filmes_diversos';
 
@@ -19,6 +20,7 @@ body {
     background-color: $black;
     color: white;
     font-family: $font;
+    overflow: hidden;
 
     a{
         color: white;
